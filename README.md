@@ -1,0 +1,2 @@
+# mastermind
+Projet NSI Mastermind
