@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# mastermind
-Projet NSI Mastermind
-=======
 # Mastermind NSI
 
 > Projet par Irwan, Mohamed et Pierre
@@ -13,4 +9,3 @@ Projet NSI Mastermind
 - reinitialiser: Réinitialise les scores de tout les joueurs
 - voir score: Affiche la moyenne des scores de chaque joueur
 - quitter: Quitte le programme
->>>>>>> bfb8be6 (initial commit)

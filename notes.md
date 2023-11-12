@@ -1,3 +1,3 @@
 # À faire
 
-- [ ] requirements.txt
+- [x] requirements.txt
