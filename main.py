@@ -105,16 +105,16 @@ def reset_scores(players: list[Player]):
 
 
 def show_score(players):
-	table = SingleTable([['Joueur', 'Score moyen']])
+	table = SingleTable([['Joueur', 'Score moyen', 'Maison']])
 	table.title = 'Ordre décroissant'
 
 	sorted_players = sorted(players, key=lambda player: sum(player.score), reverse=True)
 	total_average = []
 
 	for player in sorted_players:
-		name, average_score = player.name, player.average_score()
+		name, average_score, house = player.name, player.average_score, player.house
 		total_average.append(average_score)
-		table.table_data.append([name, f"{average_score:.2f}"])
+		table.table_data.append([name, f"{average_score:.2f}", house])
 
 	if sum(total_average) != 0 and len(total_average):
 		table.table_data.append(['Moyenne total des joueurs', f"{sum(total_average) / len(total_average):.2f}"])
